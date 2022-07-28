@@ -1,0 +1,153 @@
+:root {
+    --color: #00b3f3;
+}
+
+[switch] {
+    --color: #09be00;
+}
+
+* {
+    transition: all 400ms;
+}
+
+@font-face {
+    font-family: terminal;
+    src: url(font.ttf);
+}
+
+body {
+    background-color: #000816;
+    color: var(--color);
+    text-shadow: 0px 0px 10px #0084ff56;
+    font-size: 20px;
+    font-family: terminal;
+}
+
+header p {
+    position: absolute;
+    top: -5px;
+    left: 20px;
+    width: 160px;
+    background-color: #000716;
+    text-align: center;
+}
+
+header hr {
+    background-color: var(--color);
+    text-shadow: 0px 0px 10px #22ff0056;
+    height: 2px;
+    border: none;
+    margin-top: 25px;
+}
+
+.about {
+    width: 70%;
+    margin-left: 5px;
+    margin-top: 50px;
+}
+
+.about h1 {
+    font-size: 17px;
+}
+
+.about p {
+    font-size: 15px;
+}
+
+#github {
+    position: absolute;
+    right: 80px;
+    top: 10px;
+    background-color: #031600;
+    width: 50px;
+    cursor: pointer;
+    color: var(--color);
+}
+
+#telegram {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    background-color: #031600;
+    width: 50px;
+    cursor: pointer;
+    color: var(--color);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.box {
+    width: 80%;
+    height: 30px;
+    border: 2px solid var(--color);
+    border-radius: 10px;
+}
+
+#html-push {
+    border-radius: 6px;
+    width: 10%;
+    background-color: var(--color);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#css-push {
+    border-radius: 6px;
+    width: 10%;
+    background-color: var(--color);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#js-push {
+    border-radius: 6px;
+    width: 10%;
+    background-color: var(--color);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#node-push {
+    border-radius: 6px;
+    width: 10%;
+    background-color: var(--color);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#express-push {
+    border-radius: 6px;
+    width: 10%;
+    background-color: var(--color);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#socketIo-push {
+    border-radius: 6px;
+    width: 10%;
+    background-color: var(--color);
+    height: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+span {
+    color: #031600;
+    transform: translate(0, 5px);
+}
+
+.lang {
+    color: var(--color);
+    margin-right: 30px;
+}
