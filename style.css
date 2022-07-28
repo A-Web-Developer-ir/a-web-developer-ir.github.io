@@ -58,7 +58,7 @@ header hr {
     position: absolute;
     right: 80px;
     top: 10px;
-    background-color: #031600;
+    background-color: black;
     width: 50px;
     cursor: pointer;
     color: var(--color);
@@ -68,7 +68,7 @@ header hr {
     position: absolute;
     right: 20px;
     top: 10px;
-    background-color: #031600;
+    background-color: black;
     width: 50px;
     cursor: pointer;
     color: var(--color);
